@@ -1,6 +1,6 @@
 
 FROM	debian:latest
-USER	ROOT
+USER	root
 RUN	mkdir -p /app
 WORKDIR	/app
 RUN	apt-get update && apt-get install -y \
